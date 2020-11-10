@@ -1,0 +1,200 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	display: flex;
+	justify-content: space-between;
+	background-color: cyan;
+	height: 80px;
+	padding-left: 50px;
+	padding-right: 80px;
+	align-items: center;
+}
+nav .logo{
+	color: black;
+	font-size: 30px;
+	font-weight: 600;
+}
+nav ul {
+	display: flex;
+	list-style: none;
+}
+nav ul li {
+	margin-right: 5px;
+	margin-left: 5px;
+}
+
+nav ul li a{
+	text-decoration: none;
+	font-size: 25px;
+	color: black;
+	font-weight: 900;
+	padding: 8px 15px;
+	border-radius: 5px;
+}
+
+nav ul li a:hover{
+	background: white;
+	color: black;
+}
+
+nav ul li a.active{
+	background: white;
+	color: black;
+}
+
+.banner-img {
+	background-image: url("../img/banner.jpg");
+	height: 900px;
+	background-size: cover;
+	text-align: center;
+}
+
+.banner-title h4{
+	font-size: 35px;
+	color: black;
+}
+
+.banner-title h1{
+	font-size: 45px;
+	color: black;
+}
+
+.button-banner{
+	margin: 15px;
+	padding: 5px 15px;
+	border-radius: 25px;
+}
+
+.button-banner:hover{
+	background:cyan;
+}
+/*start of main body*/
+
+.home-post{
+	width: 60%;
+	height:700px;
+	background-color: white;
+	display: inline-block;
+}
+
+.sidebar{
+	width: 40%;
+	height:700px;
+	background-color: grey;
+	display: inline-block;
+	float: right;
+}
+.first-img{
+	width: 60%;
+	padding-left: 150px;
+	padding-top:40px;
+	padding-bottom:30px;
+}
+
+.first-head{
+	padding: 10px 20px;
+	font-size: 18px;
+}
+
+.first-abs{
+	padding: 10px 20px;
+	font-size: 18px;
+}
+
+.read-more{
+	padding: 10px 20px;
+	background: white;
+	margin: 10px 20px;
+}
+
+hr{
+	margin: 5px 15px;
+}
+
+.publisher{
+	display: flex;
+	justify-content: space-around;
+}
+
+.cat-title{
+	font-size: 25px;
+	margin: 20px;
+}
+
+.cat-btn{
+	padding: 10px 25px;
+	margin: 10px 25px;
+	background: white;
+	border-radius: 25px;
+}
+.cat-btn:hover{
+	background: cyan;
+}
+.plr-pst h1{
+	font-size: 25px;
+}
+
+.plr-img{
+	width: 70%
+	margin-left: 100px;
+}
+
+.plr-pst .plr-img{
+	width: 60%;
+	padding: 25px 150px;
+}
+
+.plr-pst h3{
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.footer-items{
+	background-color: grey;
+	height: 50px;
+	margin-top: 50px;
+	text-align: center;
+	padding-top: 25px;
+}
+
+#name{
+	width: 60%;
+	padding: 7px 20px;
+	margin: 8px 0px;
+}
+
+#email{
+	width: 60%;
+	padding: 7px 20px;
+	margin: 8px 0px;
+}
+
+.form label{
+	font-size: 15px;
+}
+
+.form h3{
+	font-size: 25px;
+	margin: 20px;
+}
+
+.form{
+	/*margin: 0px 50px;*/
+	margin-left: 50px
+}
+
+.form-body{
+	padding: 0px 50px;
+}
+
+#submit{
+	padding: 15px;
+	background: cyan;
+}
+
+#submit:hover{
+	background: blue;
+}
